@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/botao1"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_margin="3pt"
+                android:onClick="buttonClick"/>
+
+            <Button
+                android:id="@+id/botao2"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_margin="3pt"
+                android:onClick="buttonClick"/>
+
+            <Button
+                android:id="@+id/botao3"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_margin="3pt"
+                android:onClick="buttonClick"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/botao4"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_margin="3pt"
+                android:onClick="buttonClick"/>
+
+            <Button
+                android:id="@+id/botao5"
+                android:layout_width="wrap_content"
+                android:layout_height="40pt"
+                android:layout_margin="3pt"
+                android:onClick="buttonClick"/>
+
+            <Button
+                android:id="@+id/botao6"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_margin="3pt"
+                android:onClick="buttonClick"/>
+        </TableRow>
+
+        <TableRow
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/botao7"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_margin="3pt"
+                android:onClick="buttonClick"/>
+
+            <Button
+                android:id="@+id/botao8"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_margin="3pt"
+                android:onClick="buttonClick"/>
+
+            <Button
+                android:id="@+id/botao9"
+                android:layout_width="40pt"
+                android:layout_height="40pt"
+                android:layout_margin="3pt"
+                android:onClick="buttonClick"/>
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
